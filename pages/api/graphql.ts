@@ -19,3 +19,4 @@ export default async function handler(req, res) {
   await server.start();
   await server.createHandler({ path: "/api/graphql" })(req, res);
 }
+
